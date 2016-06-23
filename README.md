@@ -1,7 +1,7 @@
 Doctrine DateRange Type
 ==========================
 
-[![Build Status](https://travis-ci.org/salamek/doctrine-daterange.png?branch=master)](https://travis-ci.org/salamek/doctrine-daterange)
+[![Build Status](https://travis-ci.org/Salamek/doctrine-daterange.svg?branch=master)](https://travis-ci.org/salamek/doctrine-daterange)
 
 Supports PostgreSQL DateRange in Doctrine DBAL.
 
