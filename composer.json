@@ -1,0 +1,35 @@
+{
+    "name": "salamek/doctrine-daterange",
+    "description": "Supports postgre DateRange in Doctrine DBAL.",
+    "keywords": ["doctrine", "date", "range"],
+    "homepage": "https://github.com/Salamek/doctrine-daterange",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Schubert",
+            "email": "adam.schubert@sg1-game.net",
+            "homepage": "https://salamek.cz"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/salamek/doctrine-daterange/issues"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "doctrine/dbal": "~2.2,>=2.2.3",
+        "salamek/php-daterange": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "doctrine/orm": "~2.2,>=2.2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Salamek\\Doctrine": "src/lib"
+        }
+    },
+    "config": {
+        "bin-dir": "bin",
+        "vendor-dir": "src/vendor"
+    }
+}
