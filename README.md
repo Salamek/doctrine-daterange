@@ -102,6 +102,6 @@ $jobs = $entityManager->createQuery(
     "SELECT j FROM Jobs j"
 )->getResult();
 
-echo $jobs[0]->getRange()->getStartDate(); // DateTime "NOW"
-echo $jobs[0]->getRange()->getEndDate(); // DateTime "NOW +1 year"
+echo $jobs[0]->getRange()->getStartDate()->format(DateTime::ISO8601); // "NOW"
+echo $jobs[0]->getRange()->getEndDate()->format(DateTime::ISO8601); //  "NOW +1 year"
 ```
